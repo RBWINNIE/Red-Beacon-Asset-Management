@@ -4,20 +4,23 @@ A static one-page marketing website for Red Beacon Asset Management — a truste
 
 **Live site:** https://rbwinnie.github.io/Red-Beacon-Asset-Management/
 
+![Site screenshot](apex-asset-website/screenshot.png)
+
 ## Project structure
 
 ```
 apex-asset-website/
-├── index.html    — all markup and section structure
-├── styles.css    — all styling (CSS custom properties, responsive layout)
-└── script.js     — all interactivity (navbar, carousel, counters, form)
+├── index.html      — all markup and section structure
+├── styles.css      — all styling (CSS custom properties, responsive layout)
+├── script.js       — all interactivity (navbar, carousel, counters, form)
+└── screenshot.png  — homepage screenshot
 ```
 
 No build step, no package manager, no framework.
 
 ## Sections
 
-- **Hero** — full-screen headline with animated stat counters (AUM, clients, years, retention rate) and CTA buttons
+- **Hero** — full-screen headline with animated stat counters (4,200M+ AUM, 1,800+ clients, 22 years experience, 94% retention rate) and CTA buttons
 - **Why Us** — four value-proposition cards (Personalised Strategy, Proven Track Record, Transparent Fees, Expert Advisors) with scroll-triggered fade-in
 - **Testimonials** — auto-rotating carousel of three client quotes; supports touch swipe, keyboard arrows, and pause-on-hover
 - **Contact** — enquiry form with client-side validation (name + email required) and FormSubmit.co AJAX integration; shows inline success/error banners
