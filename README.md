@@ -1,6 +1,6 @@
 # Red Beacon Asset Management
 
-A static one-page marketing website for Red Beacon Asset Management — a trusted wealth management and investment advisory firm.
+A static one-page marketing website for Red Beacon Asset Management — an ESG-focused sustainable wealth management and investment advisory firm.
 
 **Live site:** https://rbwinnie.github.io/Red-Beacon-Asset-Management/
 
@@ -18,12 +18,23 @@ apex-asset-website/
 
 No build step, no package manager, no framework.
 
+## Design system
+
+The site uses a sustainability-focused green design language:
+
+- **Primary palette** — deep forest green `#1B4332`, leaf green `#52B788`, soft sage `#D8F3DC`
+- **Typography** — Playfair Display (headings) + DM Sans (body), both loaded from Google Fonts
+- **Shadows** — green-tinted (`rgba(27,67,50,…)`) rather than pure black
+- **Navbar** — transparent over hero; frosts to off-white (`backdrop-filter: blur`) on scroll
+
+All colour tokens live as CSS custom properties in `:root` in `styles.css`. Edit there, not inline.
+
 ## Sections
 
-- **Hero** — full-screen headline with animated stat counters (4,200M+ AUM, 1,800+ clients, 22 years experience, 94% retention rate) and CTA buttons
-- **Why Us** — four value-proposition cards (Personalised Strategy, Proven Track Record, Transparent Fees, Expert Advisors) with scroll-triggered fade-in
+- **Hero** — full-screen forest-green background with CSS radial gradients; animated stat counters (4,200M+ AUM, 1,800+ clients, 22 years, 94% retention) and CTA buttons
+- **Why Us** — four ESG value-proposition cards (Personalised ESG Strategy, Proven Sustainable Returns, Transparent Fees, Expert ESG Advisors) with scroll-triggered fade-in
 - **Testimonials** — auto-rotating carousel of three client quotes; supports touch swipe, keyboard arrows, and pause-on-hover
-- **Contact** — enquiry form with client-side validation (name + email required) and FormSubmit.co AJAX integration; shows inline success/error banners
+- **Contact** — enquiry form ("Begin Your Impact Journey") with client-side validation (name + email required) and FormSubmit.co AJAX integration; shows inline success/error banners
 
 ## Running locally
 
