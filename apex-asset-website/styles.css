@@ -10,9 +10,9 @@
   --navy:        #0a2540;
   --navy-light:  #0d3060;
   --navy-dark:   #061828;
-  --gold:        #d4a017;
-  --gold-light:  #e8b93a;
-  --gold-dark:   #b8880f;
+  --gold:        #d63384;
+  --gold-light:  #e55fa0;
+  --gold-dark:   #b0196a;
   --white:       #ffffff;
   --off-white:   #f7f8fa;
   --gray-100:    #f0f2f5;
@@ -53,7 +53,7 @@
   --shadow-sm:  0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
   --shadow-md:  0 4px 16px rgba(0,0,0,.10), 0 2px 6px rgba(0,0,0,.07);
   --shadow-lg:  0 12px 40px rgba(0,0,0,.14), 0 4px 12px rgba(0,0,0,.08);
-  --shadow-gold: 0 8px 32px rgba(212,160,23,.25);
+  --shadow-gold: 0 8px 32px rgba(214,51,132,.25);
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   --nav-h: 72px;
 }
